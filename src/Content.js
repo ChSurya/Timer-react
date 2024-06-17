@@ -47,33 +47,6 @@ const Content = () =>{
     //     setCount(1);  // reseting the count 
     // }
     const StartTiming = () => {
-
-        // let mindisp;
-        // mindisp = count-1;
-        // setMinCount(mindisp);
-        // let number = 59;
-        // let min = setInterval(()=>{
-        //     mindisp = count-1;
-        //     setMinCount(mindisp);
-        //     if(mindisp===0){
-        //         clearInterval(min);
-        //     }
-        //     mindisp = mindisp-1;
-        // },60000)
-        // // let secval = 59;
-        // let sec = setInterval(()=>{
-        //     // setSecCount(number)
-        //     // number = number-1;
-        //     if(mindisp!==0&& number===0){
-        //         setSecCount(number)
-        //         number = number-1;
-        //     }
-        //     if(mindisp===0&&number===0){
-        //     clearInterval(sec);
-        // }
-
-        // },1000);
-
         let totalSeconds = count * 60 - 1;
         
         let intervalId = setInterval(() => {
